@@ -40,6 +40,9 @@ module.exports = function (config) {
     },
     webpackMiddleware: {
     },
+    beforeMiddleware: [
+      'webpackBlocker'
+    ],
     reporters: [ 'progress' ],
     port: 9876,
     colors: true,
