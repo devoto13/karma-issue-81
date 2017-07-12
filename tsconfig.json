@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "outDir": "lib",
+    "target": "es5",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "types": [
+      "jasmine"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
